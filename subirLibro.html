@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>registration form</title>
+    <link rel="stylesheet" href="css/subirL.css">
+    <script type="text/javascript" src="js/subirLibro.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+    <div id="navigation-container">
+        <ul>
+            <li>
+                <a style="float:right" href="" class="fa fa-power-off" id="lout"> <b> 
+	<font face= "Century Gothic" > Logout</a></b></font>
+            </li>
+            <li>
+                <a style="float:right" href="subirLibro.html" class="fa fa-book" id="subir"> <b> 
+	<font face= "Century Gothic" >Mis Libros</a></b></font>
+            </li>
+            <li>
+                <a style="float:right" href="favoritos.html" class="fa fa-star" id="fav"> <b> 
+	<font face= "Century Gothic" > Favoritos</a></b></font>
+            </li>
+            <li>
+                <a style="float:right" href="modificaUsuario.html" class="fa fa-user-circle" id="cuenta"> <b> 
+	<font face= "Century Gothic" > Mi cuenta </a></b></font>
+            </li>
+            <li>
+                <a style="float: left" href="home.html" class="fa fa-home"> <b> 
+	<font face= "Century Gothic" > Home </a></b></font>
+            </li>
+
+        </ul>
+    </div>
+    <div id="formR">
+        <fieldset>
+            <center>
+                <h2 ALIGN="CENTER">Registra un libro</h2>
+                <table border="0" align="center">
+                    <tr>
+                        <td><label for="name">Nombre: </label></td>
+                        <td><input id="name" maxlength="80" name="name" type="text" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="course">Autor: </label></td>
+                        <td><input id="autor" maxlength="80" name="course" type="text" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="branch">Imagen: </label></td>
+                        <td><input id="imagen" maxlength="80" name="rollno" type="text" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="rolln0">Precio: </label></td>
+                        <td><input id="precio" maxlength="80" name="rollno" type="text" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Idioma:</label></td>
+                        <td><input id="idioma" maxlength="80" name="email" type="text" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="username">Edicion:</label></td>
+                        <td><input id="edicion" maxlength="80" name="username" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="username">Correo Vendedor:</label></td>
+                        <td><input id="correoV" maxlength="80" name="cv" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="username">Nombre Vendedor:</label></td>
+                        <td><input id="nombreV" maxlength="80" name="nv" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="username">Apellido Vendedor:</label></td>
+                        <td><input id="apellidoV" maxlength="80" name="av" type="text" /></td>
+                    </tr>
+                </table>
+                <div id="errorLibro" class="hiddenElement text-center">
+                    <label id="errorLibroText">
+</label>
+                </div>
+                <input name="Submit" type="Submit" value="Agregar" class="btn btn-primary btn-block" id="subirB" /></td>
+            </center>
+            </form>
+            <center>
+                <h2> Mis libros subidos </h2>
+            </center>
+            <div id="librosSubidos">
+            </div>
+            </center>
+        </fieldset>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="application/javascript" src="js/jQuery.js"></script>
+</body>
+
+</html>

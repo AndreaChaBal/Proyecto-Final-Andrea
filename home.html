@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/catalogo.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <div id="navigation-container">
+        <ul>
+            <li>
+                <a style="float:right" href="" class="fa fa-power-off" id="lout"> <b> 
+	<font face= "Century Gothic" > Logout</a></b></font>
+            </li>
+            <li>
+                <a style="float:right" href="subirLibro.html" class="fa fa-book" id="subir"> <b> 
+	<font face= "Century Gothic" >Mis Libros</a></b></font>
+            </li>
+            <li>
+                <a style="float:right" href="favoritos.html" class="fa fa-star" id="fav"> <b> 
+	<font face= "Century Gothic" > Favoritos</a></b></font>
+            </li>
+            <li>
+                <a style="float:right" href="modificaUsuario.html" class="fa fa-user-circle" id="cuenta"> <b> 
+	<font face= "Century Gothic" > Mi cuenta </a></b></font>
+            </li>
+            <li>
+                <a style="float: left" href="home.html" class="fa fa-home"> <b> 
+	<font face= "Century Gothic" > Home </a></b></font>
+            </li>
+
+        </ul>
+        <div id="page">
+            <div id="searchForm" method="post">
+                <input id="searchLibro" type="text" placeholder="Buscar..." />
+                <input type="submit" value="Search" id="bot" />
+
+                <div id="searchInContainer">
+                    <input type="radio" name="check" value="nombreLibro" id="searchWeb" checked/>
+                    <label for="searchWeb">Nombre del Libro</label>
+                    <input type="radio" name="check" value="autorLibro" id="searchSite" />
+                    <label for="searchSite" id="siteNameLabel">Autor</label>
+
+
+                </div>
+            </div>
+        </div>
+        <fieldset>
+            <div id="imprimeLibro" align="center">
+                <center>
+                    <h2> Catálogo </h2>
+                </center>
+
+                <div id="librosJson">
+
+
+
+
+                </div>
+                <div id="errorQuery" class="hiddenElement text-center">
+                    <label id="errorQueryText">
+            </label>
+                </div>
+
+            </div>
+        </fieldset>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="application/javascript" src="js/jQuery.js"></script>
+</body>
+
+</html>

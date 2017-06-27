@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="text/javascript" src="js/registrationScript.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+    <div action="" class="login">
+        <center>
+            <img src="logo.png" alt="Mountain View" style="width:184px;height:128px;">
+        </center>
+
+        <div class="form-group">
+            <div class="form-group">
+                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Apellido">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="email" id="email" placeholder="Correo electrónico">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="pass" id="pass" placeholder="Contraseña">
+            </div>
+            <div id="errorRegistro" class="hiddenElement text-center">
+                <label id="errorRegistroText">
+            </label>
+            </div>
+            <p class="text-center">
+                <button id="regis" class="btn btn-primary btn-block">Crear cuenta</button>
+            </p>
+        </div>
+        <p class="text-center">
+            <button id="cancelar" class="btn btn-primary btn-block">Cancelar</button>
+        </p>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="application/javascript" src="js/jQuery.js"></script>
+</body>
+
+</html>

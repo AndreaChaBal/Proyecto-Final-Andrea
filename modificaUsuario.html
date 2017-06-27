@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mi cuenta</title>
+    <link rel="stylesheet" href="css/modificaUsuario.css">
+    <script type="application/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/modificarUsuarioScript.js"></script>
+</head>
+
+<body>
+    <div id="navigation-container">
+        <ul>
+            <li>
+                <a style="float:right" href="" class="fa fa-power-off" id="lout"> <b> 
+	<font face= "Century Gothic" > Logout</a></b></font>
+            </li>
+            <li>
+                <a style="float:right" href="subirLibro.html" class="fa fa-book" id="subir"> <b> 
+	<font face= "Century Gothic" >Mis Libros</a></b></font>
+            </li>
+            <li>
+                <a style="float:right" href="favoritos.html" class="fa fa-star" id="fav"> <b> 
+	<font face= "Century Gothic" > Favoritos</a></b></font>
+            </li>
+            <li>
+                <a style="float:right" href="modificaUsuario.html" class="fa fa-user-circle" id="cuenta"> <b> 
+	<font face= "Century Gothic" > Mi cuenta </a></b></font>
+            </li>
+            <li>
+                <a style="float: left" href="home.html" class="fa fa-home"> <b> 
+	<font face= "Century Gothic" > Home </a></b></font>
+            </li>
+
+        </ul>
+    </div>
+    <fieldset>
+        <center>
+            <h2 ALIGN="CENTER">Modifica tus datos</h2>
+            <table align="center" border="0" align="left">
+                <tr>
+                    <td><label for="nameM">Nombre: </label></td>
+                    <td><input id="nameM" maxlength="80" name="name" type="text" /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="apellidoM">Apellido: </label></td>
+                    <td><input id="apellidoM" maxlength="80" name="course" type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label for="passM">Contraseña:</label></td>
+                    <td><input id="passM" maxlength="80" name="email" type="password" /></td>
+                </tr>
+
+            </table>
+            <button id="modificar">Guardar</button>
+            <div id="notificacionGuardar" class="hiddenElement text-center">
+                <label id="notificacionGuardarText">
+            </label>
+            </div>
+        </center>
+        </form>
+        </center>
+        <div id="Acerca">
+            <h1>
+                <center>Acerca de nosotros </h1>
+            </center>
+            <div id="info">
+                <h2>
+                    <font color="#fbb217">Propósito </font>
+                </h2>
+                <p>
+                    Es bien conocido que el costo de los libros usados dentro de las clases de educación media y superior pueden llegar a cifras muy altas, donde dichos libros pueden solamente ser de utilidad durante un período corto de tiempo relativo al tiempo dedicado a la totalidad de un bachillerato o una carrera. De la misma manera, existe una gran cantidad de personas que tiene el gusto de intercambiar libros por sumas de dinero menores al precio de venta una vez leído dicho ejemplar.
+                </p>
+
+                Debido a la gran demanda de compra y venta de libros de segunda mano, por el mismo alto costo y posible inconveniencia de contacto entre vendedores y compradores, nuestra propuesta es crear una página donde el público en general pueda anunciar los libros que desean vender y ponerse en contacto con los compradores interesados en adquirir algún libro mediante su información personal, ya sea correo, teléfono, etc. Mientras tanto, cualquier estudiante o persona que tenga el deseo de comprar un libro de segunda mano puede entrar a ver el catálogo de libros, buscar el que desea, visualizar la información del vendedor y ponerse en contacto.
+
+                </p>
+                <h2>
+                    <font color="#fbb217">Visión </font>
+                </h2>
+                <p>
+                    Ser la plataforma predeterminada que usen los estudiantes para la búsqueda de libros usados, al mismo tiempo que el público general tenga interés y preferencia en publicar y vender los libros dentro de la plataforma.
+                </p>
+                <center> <b>
+        <h2> <font color="#fbb217"> Creadores
+        <p><font color="#2E4057">José María Flores Escalera </font></p>
+        <p><font color="#2E4057">Andrea Chacón Balderas </font></p>
+        </b>
+                </center>
+            </div>
+        </div>
+    </fieldset>
+</body>
+
+</html>
